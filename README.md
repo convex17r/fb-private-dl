@@ -16,7 +16,14 @@
 
 <p align="center"><i>uses yt-dlp, aria2c*, ffmpeg.</i></p>
 
-<p align="center">[Virustotal Scan Link]</p>
+<p align="center"> <a href="https://www.virustotal.com/gui/file/0dee676bb91a8dacf52a3bad1ed8d69f034b13c68dd16aad1e1968ad7bc546d2/detection target="_blank"> 🔍 Virustotal Scan Result Link </a> </p>
+
+<p align="center">
+  <img width="400" height="101" alt="results" src="https://github.com/user-attachments/assets/13b9c092-0639-4734-9cec-e473d0458c72"/>
+</p>
+
+<p align="center"> <b>🚧 Coming Soon... Video Tutorial + Showcase </b> </p>
+
 
 <p align="center">Supported OS: <b>[macOS, Linux, Windows]</b></p>
 <p align="center">
