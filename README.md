@@ -135,4 +135,6 @@ yt-dlp must have proof for Facebook that you are logged in.
 
 > **Refreshing** the site will **remove** the progress of captured media links.
 
----
+-----
+
+<sub> P.S. Special thanks to MIMO and MUSE for help in this project. </sub>
