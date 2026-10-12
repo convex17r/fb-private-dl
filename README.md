@@ -137,4 +137,4 @@ yt-dlp must have proof for Facebook that you are logged in.
 
 -----
 
-<sub> P.S. Special thanks to MIMO and MUSE for help in this project. </sub>
+<sub> P.S. Special Thanks to MIMO and MUSE for help in this project. </sub>
