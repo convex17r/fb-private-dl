@@ -24,7 +24,7 @@
   <img width="400" height="101" alt="results" src="https://github.com/user-attachments/assets/8d36f9b0-06e1-4877-bace-c9eb9772ae50"/>
 </p>
 
-<p align="center"> <b>🚧 Coming Soon... Video Tutorial + Showcase </b> </p>
+<p align="center"> <b>🚧 Coming Soon... [Video Tutorial + Showcase] [usage of gallery-dl for bulk photo download] </b> </p>
 
 
 <p align="center">Supported OS: <b>[macOS, Linux, Windows]</b></p>
