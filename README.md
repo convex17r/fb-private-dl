@@ -4,7 +4,7 @@
 
 <h1 align="center">fb-private-dlp project</h1>
 
-<p align="center"><b>Download Private Facebook Group, Page, Profile media [Bulk + Individual]; with auto-file naming.</b></p>
+<p align="center"><b>Download Private Facebook Group, Page, Profile media [Bulk + Individual]; with [⚡ auto-file naming]. </b></p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white" alt="Windows" />
