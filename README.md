@@ -17,11 +17,11 @@
 <p align="center"><i>uses yt-dlp, aria2c*, ffmpeg.</i></p>
 
 <p align="center">
-  <a href="https://www.virustotal.com/gui/file/0dee676bb91a8dacf52a3bad1ed8d69f034b13c68dd16aad1e1968ad7bc546d2/detection">🔍 Virustotal Scan Result Link</a>
+  <a href="https://www.virustotal.com/gui/file/9025f545de35b82827cb9edc17fa14d60c78ca6c952cc07e97ac8d23b31f8bac/detection">🔍 Virustotal Scan Result Link</a>
 </p>
 
 <p align="center">
-  <img width="400" height="101" alt="results" src="https://github.com/user-attachments/assets/13b9c092-0639-4734-9cec-e473d0458c72"/>
+  <img width="400" height="101" alt="results" src="https://github.com/user-attachments/assets/8d36f9b0-06e1-4877-bace-c9eb9772ae50"/>
 </p>
 
 <p align="center"> <b>🚧 Coming Soon... Video Tutorial + Showcase </b> </p>
@@ -126,7 +126,7 @@ yt-dlp must have proof for Facebook that you are logged in.
 | Method | How |
 | ------ | --- |
 | **A. cookies.txt file**<a id="a-cookiestxt"></a> (most reliable) | Install the [Get cookies.txt LOCALLY](https://chromewebstore.google.com/detail/cclelndahbckbenkjhflpdbgdldlbecc) browser extension → open `facebook.com` → export → save as `cookies.txt` next to the downloaded `.bat` file, then choose `cookies.txt file` in the panel. |
-| **B. Read from browser (fastest) (recommended)**<a id="b-browser-cookie"></a> | In the script panel, pick the browser you are logged in with. **Close that browser** before running the `.bat` (Chrome / Edge / Brave lock their cookie database while running; **Firefox does not need closing**). |
+| **B. Read from browser (fastest) (recommended)**<a id="b-browser-cookie"></a> | In the script panel, pick the browser you are logged in with. **Completely close that browser** before running the `.bat` (Chrome / Edge / Brave lock their cookie database while running; **Firefox does not need closing**). |
 
 > [!WARNING]
 > Sometimes in **Method B** **eset-Antivirus's** **Advanced Browser Data Protection** may block the cookies from being accessed by `yt-dlp`; go to ESET Dashboard → Click <kbd>F5</kbd> → Go to <kbd>Browser Protection</kbd> → Turn off <kbd>Advanced Data Protection</kbd>
