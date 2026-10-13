@@ -138,9 +138,11 @@ yt-dlp must have proof for Facebook that you are logged in.
 ## 3. Load the console script
 
 1. Login to the Facebook account from where you can access the private media
-2. Open console by clicking <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>I</kbd> or simply press <kbd>F12</kbd> button
-3. Open the [`fb-private-dlp.js`](./fb-private-dlp.js) in Notepad and **copy** the script → **Paste** it in your browser site console
-4. Hit <kbd>Enter</kbd>.
+2. Either go to Facebook's Media Tab **(for BULK Download)** or simply in the feed **(for selective click download)**
+3. Open console by clicking <kbd> Ctrl </kbd> + <kbd> Shift </kbd> + <kbd> I </kbd> or simply press <kbd>F12</kbd> button
+4. Open the [`fb-private-dlp-vid.js`](./fb-private-dlp-vid.js) or [`fb-private-dlp-img.js`](./fb-private-dlp-img.js) in _Notepad_ and **copy** the script → **Paste** it in your browser site console
+5. Hit <kbd>Enter</kbd>
+6. Everything else is **self-explanatory.**
 
 > **Refreshing** the site will **remove** the progress of captured media links.
 
