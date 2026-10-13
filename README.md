@@ -169,7 +169,7 @@ FOLLOW these steps: or [Watch this tutorial/showcase](https://youtube.com/watch?
 5. Hit <kbd>Enter</kbd> — the panel will appear in right side. Pick either **CLICK MODE (videos only)** or **BULK MODE** (every media), choose your **COOKIES SOURCE** as per [Earlier Discusison](#2-set-up-cookies-required-for-private-media), then click **DOWNLOAD .BAT**.
 6. Move the `.bat` into an empty folder; where you want your media to be downloaded; (keep `cookies.txt` next to it if you picked Method A) and **double-click run** it.
 
-> **Refreshing** the site will **remove** the progress of captured media links (image bulk list is kept in the browser — use **CLEAR** before scanning a different group/page so lists don't mix).
+> **Refreshing** the site will **remove** the progress of captured media links.
 
 ---
 
