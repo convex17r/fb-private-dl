@@ -56,7 +56,7 @@
 
 Install the downloader for the media you want. For videos you need **yt-dlp + ffmpeg** (**aria2c** optional, faster). For photos you need **gallery-dl** only.
 
-<details open>
+<details close>
 <summary><b>Windows (PowerShell/cmd)</b></summary>
 <br />
 
@@ -84,7 +84,7 @@ gallery-dl --version
 
 </details>
 
-<details open>
+<details close>
 <summary><b>macOS (Terminal)</b></summary>
 <br />
 
@@ -110,7 +110,7 @@ gallery-dl --version
 
 </details>
 
-<details open>
+<details close>
 <summary><b>Linux</b></summary>
 <br />
 
