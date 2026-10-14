@@ -184,18 +184,20 @@ FOLLOW these steps: or [Watch this video tutorial/showcase](https://youtube.com/
 
 ## 4. Images — usage <a id="4-images-usage"></a>
 
-> <img width="1366" height="657" alt="imgdemogif" src="./assets/group_imgdemo.gif" />
+> <img width="1366" height="657" alt="grpimgdemogif" src="./assets/group_imgdemo.gif" />
 >
 > **Demo shows public profile and group; private profiles and groups work too**
 > 
-> <img width="1366" height="657" alt="imgdemogif" src="./assets/profilepage_imgdemo.gif" />
+> <img width="1366" height="657" alt="profimgdemogif" src="./assets/profilepage_imgdemo.gif" />
 >
 > **After this you can run the `.bat` file on target folder.**
 
 ## 5. Videos — usage <a id="5-videos-usage"></a>
 
-
-
+> <img width="1366" height="657" alt="bulkvidgrp" src="./assets/group_viddemobulk.gif" />
+> You **must use cookie source of the browser you're logged** in if you're using [Method B](#b-browser-cookie)
+> For [Method A](#a-cookiestxt), you just need `cookies.txt` next to the `.bat` file in target folder.
+> <img width="1366" height="657" alt="clickvidgrp" src="./assets/group_viddemoclick.gif" />
 
 
 -----
