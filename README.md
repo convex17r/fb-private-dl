@@ -184,9 +184,9 @@ FOLLOW these steps: or [Watch this video tutorial/showcase](https://youtube.com/
 
 ## 4. Images — usage <a id="4-images-usage"></a>
 
-> <img width="1366" height="657" alt="imgdemogif" src="https://github.com/user-attachments/assets/5d53ea42-9fe7-4b5e-a031-7c11d9a56509" />
-
-
+> <img width="1366" height="657" alt="imgdemogif" src="./assets/imgdemogif.gif" />
+>
+> **After this you can run the `.bat` file**
 
 ## 5. Videos — usage <a id="5-videos-usage"></a>
 
