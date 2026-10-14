@@ -4,7 +4,7 @@
 
 <h1 align="center">fb-private-dlp project</h1>
 
-<p align="center"><b>Download Private Facebook Group, Page, Profile media [⚡ Highest quality] [Bulk + Individual]; with [⚡ auto-file naming]. </b></p>
+<p align="center"><b>Download Private Facebook Group, Page and Profile media <br> [⚡ Highest quality] [Bulk + Individual]; with [⚡ auto-file naming].</br> </b></p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white" alt="Windows" />
@@ -16,15 +16,24 @@
 
 <p align="center"><i>uses yt-dlp, gallery-dl, aria2c*, ffmpeg.</i></p>
 
+
 <p align="center">
-  <a href="https://www.virustotal.com/gui/file/9025f545de35b82827cb9edc17fa14d60c78ca6c952cc07e97ac8d23b31f8bac/detection">🔍 Virustotal Scan Result Link</a>
+  <a href="https://www.virustotal.com/gui/file/10033ab1954f80cb45aa289663da6e335e48051c6c6f0d379b7245f17f5d465f/detection">🔍 Virustotal Scan Result Link [fb-private-dlp-img.js] </a>
 </p>
 
 <p align="center">
-  <img width="400" height="101" alt="results" src="https://github.com/user-attachments/assets/8d36f9b0-06e1-4877-bace-c9eb9772ae50"/>
+  <a href="https://www.virustotal.com/gui/file/e9ea75cacc251afdf13dea60e6c6bfc4f7aa9ffa59fa06df8362a4b4bc138cf7/detection">🔍 Virustotal Scan Result Link [fb-private-dlp-vid.js] </a>
 </p>
 
-<p align="center"> <b>🚧 Coming Soon... [Video Tutorial + Showcase] [usage of gallery-dl for bulk photo download] </b> </p>
+<p align="center">
+  <img width="400" height="101" alt="results" src="https://github.com/user-attachments/assets/9ad030e5-f92a-462d-8616-a04b0c74bc8f"/>
+</p>
+
+<p align="center">
+  <img width="400" height="101" alt="results" src="https://github.com/user-attachments/assets/101c2818-1b51-4fc2-ae5e-4bc781ff5989"/>
+</p>
+
+<p align="center"> <b>🚧 Coming Soon... [Video Tutorial + Showcase] </b> </p>
 
 
 <p align="center">Supported OS: <b>[macOS, Linux, Windows]</b></p>
@@ -42,7 +51,7 @@
 
     A. [Get COOKIES.TXT Locally](#a-cookiestxt)
 
-    B. [Browser cookie export](#b-browser-cookie)
+    B. [Auto Browser cookie import](#b-browser-cookie)
 
 3. [Console Run](#3-load-the-console-script)
 
@@ -54,7 +63,7 @@
 
 ## 1. Install the tools
 
-Install the download-tools by using commands below. For videos you need **yt-dlp + ffmpeg** (**aria2c** _optional, faster_). For photos you need **gallery-dl** only.
+- Install the download-tools by using commands below. For videos you need **yt-dlp + ffmpeg** (**aria2c** _optional, faster_). <br> For photos you need **gallery-dl** only. </br>
 
 <details close>
 <summary><b>Windows (PowerShell/cmd)</b></summary>
@@ -142,12 +151,12 @@ gallery-dl --version
 
 ## 2. Set up cookies (required for private media)
 
-The downloader (yt-dlp & gallery-dl) must have proof for Facebook that you are logged in. cookies are your proof.
+The downloader (`yt-dlp` & `gallery-dl`) must have proof for Facebook that you are logged in. cookies are your proof.
 
 | Method | How |
 | ------ | --- |
 | **A. cookies.txt file**<a id="a-cookiestxt"></a> (most reliable) | Install the [Get cookies.txt LOCALLY](https://chromewebstore.google.com/detail/cclelndahbckbenkjhflpdbgdldlbecc) browser extension → open `facebook.com` → export → save as `cookies.txt` next to the downloaded `.bat` file, then choose `cookies.txt file` in the panel. |
-| **B. Read from browser (fastest) (recommended)**<a id="b-browser-cookie"></a> | In the script panel, pick the browser you are logged in with. **Completely close that browser** before running the `.bat` (Chrome / Edge / Brave lock their cookie database while running; **Firefox does not need closing**). |
+| **B. Read from browser (fastest) (recommended)**<a id="b-browser-cookie"></a> | In the script panel, [how to run script?](#3-load-the-console-script); pick the browser you are logged in with. **Completely close that browser** before running the `.bat` (Chrome / Edge / Brave lock their cookie database while running; **Firefox does not need closing**). |
 
 > [!WARNING]
 > Sometimes in **Method B** **eset-Antivirus's** **Advanced Browser Data Protection** may block the cookies from being accessed; go to ESET Dashboard → Click <kbd>F5</kbd> → Go to <kbd>Browser Protection</kbd> → Turn off <kbd>Advanced Data Protection</kbd>
@@ -158,16 +167,16 @@ The downloader (yt-dlp & gallery-dl) must have proof for Facebook that you are l
 
 ## 3. Load the console script
 
-FOLLOW these steps: or [Watch this tutorial/showcase](https://youtube.com/watch?v=apojcksnx)
+FOLLOW these steps: or [Watch this video tutorial/showcase](https://youtube.com/watch?v=apojcksnx)
 
 1. Login to the **Facebook account from where you can access the private media**
-2. Either go to FB Media Tab **(for bulk download)** or Feeds **(for selective click download)**
+2. Either go to FB Media Tab **(for bulk download (img + vid))** or Feeds **(for selective click download (only vid supported))**
 3. Open console by clicking <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>I</kbd> or simply press <kbd>F12</kbd> button
 4. Open the script in Notepad and **copy** it → **Paste** it in your browser site console:
     - Photos: [`fb-private-dlp-img.js`](./fb-private-dlp-img.js) 
     - Videos: [`fb-private-dlp-vid.js`](./fb-private-dlp-vid.js) 
-5. Hit <kbd>Enter</kbd> — the panel will appear in right side. Pick either **CLICK MODE (videos only)** or **BULK MODE** (every media), choose your **COOKIES SOURCE** as per [Earlier Discusison](#2-set-up-cookies-required-for-private-media), then click **DOWNLOAD .BAT**.
-6. Move the `.bat` into an empty folder; where you want your media to be downloaded; (keep `cookies.txt` next to it if you picked Method A) and **double-click run** it.
+5. Hit <kbd>Enter</kbd> — the panel will appear in right side. <br> Pick either **CLICK MODE (only vid supported)** or **BULK MODE** **(img + vid supported)**, </br> choose your **COOKIES SOURCE** as per [Earlier Discusison](#2-set-up-cookies-required-for-private-media), then click <kbd><b> DOWNLOAD .BAT </b></kbd>
+6. Move the `fb-private-dlp-xxxx.bat` into an empty folder; where you want your media to be downloaded; <br> (keep `cookies.txt` next to it if you picked [Method A](#a-cookiestxt)) and **double-click run** it. </br>
 
 > **Refreshing** the site will **remove** the progress of captured media links.
 
@@ -175,10 +184,16 @@ FOLLOW these steps: or [Watch this tutorial/showcase](https://youtube.com/watch?
 
 ## 4. Images — usage <a id="4-images-usage"></a>
 
+> <img width="1366" height="657" alt="imgdemogif" src="https://github.com/user-attachments/assets/5d53ea42-9fe7-4b5e-a031-7c11d9a56509" />
+
+
 
 ## 5. Videos — usage <a id="5-videos-usage"></a>
 
 
+
+
+
 -----
 
-<sub> P.S. Special Thanks to MIMO and MUSE for help in this project. </sub>
+<sub> P.S. Special Thanks to OC Zen for help in this project. </sub>
