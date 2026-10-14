@@ -195,8 +195,8 @@ FOLLOW these steps: or [Watch this video tutorial/showcase](https://youtube.com/
 ## 5. Videos — usage <a id="5-videos-usage"></a>
 
 > <img width="1366" height="657" alt="bulkvidgrp" src="./assets/group_viddemobulk.gif" />
-> You **must use cookie source of the browser you're logged** in if you're using [Method B](#b-browser-cookie)
-> For [Method A](#a-cookiestxt), you just need `cookies.txt` next to the `.bat` file in target folder.
+> You <b> must use cookie source of the browser you're logged </b> in if you're using [Method B](#b-browser-cookie)
+> <br> <b> For [Method A](#a-cookiestxt), you just need `cookies.txt` next to the `.bat` file in target folder. </b> </br>
 > <img width="1366" height="657" alt="clickvidgrp" src="./assets/group_viddemoclick.gif" />
 
 
